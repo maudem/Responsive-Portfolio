@@ -1,4 +1,4 @@
-body {
+/*/*body {
 	background-color: #ced;
 	font-size: 18px;
 	line-height: 34px;
@@ -84,11 +84,8 @@ nav a{
 nav a:first-child {
 	border-left: 0 none;
 }
-.contain{
-	
-}
 
-#main{
+.main{
 padding-top: 100px;
 position: relative;
 margin-left: 80px;
@@ -96,7 +93,7 @@ margin-left: 80px;
 
 }
 
-.about{
+#about{
 	background: #fff;
 	padding:30px;
 	margin: 0 0 40px 0;
@@ -240,3 +237,48 @@ input[type=submit] {
 	text-align: center;
 }
 
+/*--------------media queries------------------*/
+
+@media screen and (max-width:980px;) {
+body{width: 100%;
+
+	/*checking if the site is responsive*/
+	background-color: red; 
+}
+
+#about{
+
+width: 40%;
+padding:20px;
+flex-wrap:wrap;
+
+}
+.connect{
+	width:30%;
+	display: inline;
+
+	}
+}
+
+
+@media screen and (min-width: 641px;) and (max-width:768px; ) {
+	
+	#about{
+		width:80%;
+		vertical-align: center;
+	}
+
+	.connect{
+		width: 80%;
+		clear:all;
+		vertical-align: center;
+	}
+
+	
+}
+
+@media screen and (max-width:640px;) {
+
+
+
+}

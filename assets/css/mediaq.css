@@ -1,0 +1,25 @@
+@media only screen and (max-width:980px;) {
+
+body{
+	width:100%;
+}
+
+.about{
+	
+	background-color: blue;
+}
+.connect{
+	position:relative;
+	
+
+
+}
+
+}
+@media only screen and (max-width:768px; ) {
+	
+}
+
+@media only screen and (max-width:640px;) {
+
+}
